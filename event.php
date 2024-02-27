@@ -14,7 +14,7 @@
         <div class="content-description">
             <h1 class="title">Photography 101</h1>
             <p class="detail">Detail</p>
-            <a class="primary-button" href="">View Courses</a>
+            <a class="primary-button" href="event-register.php">View Courses</a>
         </div>
         <div class="content-image">
             <img src="" alt="#">
@@ -25,7 +25,7 @@
         <div class="content-description">
             <h1 class="title">Hackathon</h1>
             <p class="detail">Detail</p>
-            <a class="primary-button" href="">View Courses</a>
+            <a class="primary-button" href="event-register.php">View Courses</a>
         </div>
         <div class="content-image">
             <img src="" alt="#">
@@ -36,7 +36,7 @@
         <div class="content-description">
             <h1 class="title">Finance Webinar</h1>
             <p class="detail">Detail</p>
-            <a class="primary-button" href="">Register for this event</a>
+            <a class="primary-button" href="event-register.php">Register for this event</a>
         </div>
         <div class="content-image">
             <img src="" alt="#">

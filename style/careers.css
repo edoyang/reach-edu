@@ -1,0 +1,25 @@
+section{
+    padding: var(--padding-lg);
+}
+
+.job{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    text-decoration: none;
+    color: black;
+}
+
+.job > *{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.job-description{
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}

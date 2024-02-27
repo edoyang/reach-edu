@@ -14,7 +14,7 @@
         <div class="content-description">
             <h1 class="title">Counseling</h1>
             <p class="detail">Detail</p>
-            <a class="primary-button" href="">Book an appointment</a>
+            <a class="primary-button" href="student-support-register.php">Book an appointment</a>
         </div>
         <div class="content-image">
             <img src="" alt="#">
@@ -25,7 +25,7 @@
         <div class="content-description">
             <h1 class="title">English Test Preparation</h1>
             <p class="detail">Detail</p>
-            <a class="primary-button" href="">Book an appointment</a>
+            <a class="primary-button" href="student-support-register.php">Book an appointment</a>
         </div>
         <div class="content-image">
             <img src="" alt="#">
@@ -36,7 +36,7 @@
         <div class="content-description">
             <h1 class="title">Financial Advise</h1>
             <p class="detail">Detail</p>
-            <a class="primary-button" href="">Book an appointment</a>
+            <a class="primary-button" href="student-support-register.php">Book an appointment</a>
         </div>
         <div class="content-image">
             <img src="" alt="#">

@@ -1,0 +1,40 @@
+section{
+    display: flex;
+    gap:100px;
+    justify-content: space-between;
+    padding: var(--padding-lg);
+}
+
+section .form{
+    width: 100%;
+    max-width: 1000px;
+}
+
+section .detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+section .detail .event-image{
+    background-color: var(--gray);
+    min-height: 400px;
+    min-width: 400px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+section .detail .event-detail{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+}
+
+section .detail .event-detail h1{
+    margin: 15px 0;
+}

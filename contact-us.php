@@ -10,8 +10,29 @@
 <body>
     <header></header>
 
-    <h1>THIS IS CONTACT US PAGE</h1>
+    <div class="location">
+        <img src="" alt="">
+        <p>Visit our campus at
+            St.Leonard
+            About x mm from your location</p>
+    </div>
 
+    <div class="contact-detail">
+        <div class="email">
+            <img src="" alt="">
+            contact@reach.com
+        </div>
+        <div class="phone">
+            <img src="" alt="">
+            +61 200 000 000
+        </div>
+        <div class="social">
+            <h1>@reach</h1>
+            <div class="brands">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
     <footer></footer>
     <script src="script/header.js"></script>
 </body>

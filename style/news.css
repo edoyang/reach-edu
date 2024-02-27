@@ -1,0 +1,33 @@
+section > h1{
+    text-align: center;
+    padding: var(--padding-lg);
+}
+
+.news{
+    padding: var(--padding-lg);
+}
+
+.news a{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.news .detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 200px;
+    color: black;
+}
+
+.news img{
+    background-color: var(--gray);
+    min-height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+}
