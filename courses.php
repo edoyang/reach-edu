@@ -36,7 +36,7 @@
         <div class="content-description">
             <h1 class="title">Information and Tech</h1>
             <p class="detail">Detail</p>
-            <a class="primary-button" href="">View Courses</a>
+            <a class="primary-button" href="information-and-technology.php">View Courses</a>
         </div>
         <div class="content-image">
             <img src="" alt="#">

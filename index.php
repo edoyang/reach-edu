@@ -19,7 +19,7 @@
     <a class="text-reset main-content" href="careers.php">
         <div class="content">
             <div class="content-description">
-                <h1 class="title">Careers </h1>
+                <h1 class="title">Careers</h1>
                 <p class="detail">Detail</p>
             </div>
             <div class="content-image">

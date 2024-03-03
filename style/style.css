@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--white);
+
+}
+
+html, body{
+    background-color: var(--background);
 }
 
 :root{
@@ -12,7 +18,9 @@
     /* COLOR VARIABLE */
     --gray: rgb(199, 195, 195);
     --white: #ffffff;
+    --black: #000000;
     --primary: #8D5CF6;
+    --background: #26335D;
 
 }
 
@@ -35,10 +43,50 @@ header{
     align-items: center;
     height: 100px;
     padding: var(--padding-lg);
-    background-color: var(--gray);
+    background-color: var(--white);
     position: sticky;
     top: 0;
     left: 0;
+}
+
+header *{
+    color: var(--black);
+
+}
+
+header .menu {
+    display: flex;
+    gap: 10px;
+}
+
+header .cart {
+    position: relative;
+}
+
+header .cart img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+header .cart .cart-items{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: var(--gray);
+    min-width: 500px;
+    height: max-content;
+    padding: 20px var(--padding-md);
+    flex-direction: column;
+    gap: 20px;
+}
+
+header .cart .cart-items .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 header .hamburger{
@@ -49,7 +97,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--gray);
+    background-color: var(--background);
     height: 50px;
     
 }
