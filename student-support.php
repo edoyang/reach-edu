@@ -44,6 +44,6 @@
     </div>
 
     <footer></footer>
-    <script src="script/header.js"></script>
+    <script src="script/header.js.php"></script>
 </body>
 </html>

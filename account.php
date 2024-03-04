@@ -13,6 +13,6 @@
     <h1>THIS IS ACCOUNT PAGE</h1>
 
     <footer></footer>
-    <script src="script/header.js"></script>
+    <script src="script/header.js.php"></script>
 </body>
 </html>

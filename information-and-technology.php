@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses Choice</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header></header>
@@ -18,6 +18,6 @@
 
 
     <footer></footer>
-    <script src="../script/header.js"></script>
+    <script src="script/header.js.php"></script>
 </body>
 </html>
