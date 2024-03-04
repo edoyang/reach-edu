@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    var isLoggedIn = false;
     var headerHTML = `
         <div class="logo">
             <img src="style/logo.png" alt="REACH" height="50">
@@ -7,7 +8,28 @@ document.addEventListener("DOMContentLoaded", function() {
             <a href="index.php">Home</a>
             <a href="contact-us.php">Contact us</a>
             <a href="courses.php">Courses</a>
-            <a href="account.php">Account</a>
+            <div class="account">
+                <p>Account</p>
+                <div class="account-overlay">
+                    <div class="profile">
+                        <img src="no-profile-image.png" alt="no-image">
+                        <p>My Name</p>
+                    </div>
+                    <div class="account-utilities">
+                        <a href="">Settings</a>
+                        <a href="">Help & Support</a>
+                        <a href="">Give Feedback</a>
+                        <a href="">Logout</a>
+                    </div>
+                    <div class="login">
+                        <h1>You need to login</h1>
+                        <div class="button">
+                            <a href="login.php">Login</a>
+                            <a href="register.php">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <a href="about-us.php">About us</a>
             <a href="student-support.php">Student support</a>
             <div class="cart">
@@ -80,5 +102,27 @@ document.addEventListener("DOMContentLoaded", function() {
                 cartItemsContainer.style.display = 'flex';
             }
         });
+    }
+
+    var accountUtilities = document.querySelector('.account-utilities');
+    var profile = document.querySelector('.profile');
+    var login = document.querySelector('.login');
+
+    if (!isLoggedIn) {
+        if (accountUtilities && profile) {
+            accountUtilities.style.display = 'none';
+            profile.style.display = 'none';
+        }
+        if (login) {
+            login.style.display = 'block';
+        }
+    } else {
+        if (accountUtilities && profile) {
+            accountUtilities.style.display = 'block';
+            profile.style.display = 'block';
+        }
+        if (login) {
+            login.style.display = 'none';
+        }
     }
 });

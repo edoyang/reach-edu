@@ -59,6 +59,34 @@ header .menu {
     gap: 10px;
 }
 
+header .account{
+    position: relative;
+}
+
+header .account-overlay{
+    position: absolute;
+    background-color: var(--white);
+    padding: var(--padding-md);
+    border-radius: 4px;
+    top: var(--padding-lg);
+    left: 0;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+header .account-overlay .profile{
+    display: flex;
+    gap: 20px;
+}
+
+header .account-overlay .account-utilities {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 header .cart {
     position: relative;
 }
