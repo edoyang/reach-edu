@@ -1,0 +1,31 @@
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    padding: var(--padding-lg);
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+}
+
+.hero video{
+    background-color: var(--gray);
+    min-width: 300px;
+    min-height: 200px;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-wrap: balance;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    white-space: pre-line;
+}

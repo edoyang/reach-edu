@@ -50,10 +50,12 @@ header{
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 10;
 }
 
 header *{
     color: var(--black);
+    cursor: pointer;
 
 }
 
@@ -64,6 +66,7 @@ header .menu {
 
 header .account{
     position: relative;
+    cursor: pointer;
 }
 
 header .account-overlay{
